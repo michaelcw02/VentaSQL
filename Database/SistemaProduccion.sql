@@ -52,7 +52,6 @@ RETURN 1;
 END;
 /
 
-
 CREATE OR REPLACE PROCEDURE P1_PT(xcodigo int,xcantidad int)
 IS
 OK INTEGER;
@@ -65,3 +64,4 @@ BEGIN
     END IF;
 END;
 /
+#added new
