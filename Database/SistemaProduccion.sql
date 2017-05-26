@@ -1,3 +1,4 @@
+
 connect system/manager as sysdba
 
 DROP USER test CASCADE;
@@ -5,7 +6,6 @@ CREATE USER test IDENTIFIED BY test;
 GRANT DBA TO test;
 
 connect test/test
-
 
 ## PRODUCCION PEDIDOS
 CREATE TABLE PRODUCCION_PEDIDOS (
@@ -80,3 +80,4 @@ BEGIN
     END IF;
 END;
 /
+
